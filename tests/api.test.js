@@ -1,6 +1,6 @@
 import request from "supertest";
 
-const baseUrl = "https://jsonplaceholder.typicode.com/";
+const baseUrl = "https://sample_url";
 
 describe("Posts endpoint", () => {
   it("should return a 200 status code when fetching 'posts/1' ", async () => {
